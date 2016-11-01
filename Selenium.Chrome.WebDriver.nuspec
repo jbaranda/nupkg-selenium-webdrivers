@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Selenium.Chrome.WebDriver</id>
+    <version>2.25</version>
+    <authors>jbaranda</authors>
+    <summary>Selenium Chrome WebDriver (Win32)</summary>
+    <description>
+	Repurposed nuget package of Selenium.WebDriver.ChromeDriver (packing process differs slightly)
+	Install Chrome Driver(Win32) for Selenium WebDriver into your Unit Test Project.
+	"chromedriver.exe" is copied to bin folder from package folder when the build process.
+	NuGet package restoring ready, and no need to commit "chromedriver.exe" binary into source code control repository.
+    </description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/jbaranda/nupkg-selenium-webdrivers</projectUrl>
+    <licenseUrl>http://unlicense.org</licenseUrl>
+    <tags>Selenium WebDriver Chrome</tags>
+    <releaseNotes>
+	<![CDATA[
+	  v2.25
+      - Chrome Driver 2.25 release
+      ]]>
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="chromedriver.exe" target="driver"/>
+    <file src="Selenium.Chrome.WebDriver.targets" target="build"/>
+  </files>
+</package>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Selenium.InternetExplorer.WebDriver</id>
+    <version>2.48</version>
+    <authors>jbaranda</authors>
+    <summary>Internet Explorer WebDriver (Win32)</summary>
+    <description>
+	Repurposed nuget package of Selenium.WebDriver.ChromeDriver but for Internet Explorer Driver instead
+	Install Internet Explorer Driver (Win32) for Selenium WebDriver into your Unit Test Project.
+	"IEDriverServer.exe" is copied to bin folder from package folder when the build process.
+	NuGet package restoring ready, and no need to commit "IEDriverServer.exe" binary into source code control repository.
+    </description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/jbaranda/nupkg-selenium-webdrivers</projectUrl>
+    <licenseUrl>http://unlicense.org</licenseUrl>
+    <tags>Selenium WebDriver Internet Explorer</tags>
+    <releaseNotes>
+	<![CDATA[
+	  v2.48
+      - Internet Explorer Driver 2.48 release
+      ]]>
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="IEDriverServer.exe" target="driver"/>
+    <file src="Selenium.InternetExplorer.WebDriver.targets" target="build"/>
+  </files>
+</package>
