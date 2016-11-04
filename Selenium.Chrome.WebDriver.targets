@@ -1,9 +1,9 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <Target Name="CopyFirefoxDriverToBin" BeforeTargets="AfterBuild">
+  <Target Name="CopyChromeDriverToBin" BeforeTargets="AfterBuild">
     <PropertyGroup>
-      <FirefoxDriverSrcPath>$(MSBuildThisFileDirectory)..\driver\geckodriver.exe</FirefoxDriverSrcPath>
-      <FirefoxDriverTargetPath Condition=" '$(FirefoxDriverTargetPath)' == '' ">$(TargetDir)</FirefoxDriverTargetPath>
+      <ChromeDriverSrcPath>$(MSBuildThisFileDirectory)..\driver\chromedriver.exe</ChromeDriverSrcPath>
+      <ChromeDriverTargetPath Condition=" '$(ChromeDriverTargetPath)' == '' ">$(TargetDir)</ChromeDriverTargetPath>
     </PropertyGroup>
-    <Copy SourceFiles="$(FirefoxDriverSrcPath)" DestinationFiles="$(FirefoxDriverTargetPath)geckodriver.exe" SkipUnchangedFiles="true"></Copy>
+    <Copy SourceFiles="$(ChromeDriverSrcPath)" DestinationFiles="$(ChromeDriverTargetPath)chromedriver.exe" SkipUnchangedFiles="true"></Copy>
   </Target>
 </Project>
