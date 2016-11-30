@@ -16,7 +16,16 @@ If ($browser -like 'Chrome') {
 	$driverName = "IEDriverServer.exe"
 	$zipName = "IEDriverServer_Win32_$version.0.zip"
 	$downloadUrl ="http://selenium-release.storage.googleapis.com/$version/$zipName"
+} ElseIf ($browser -like 'Phantomjs') {
+	$driverName = "phantomjs.exe"
+	$folderName = "phantomjs-$version-windows"
+	$zipName = "$folderName.zip"
+	$downloadUrl ="https://bitbucket.org/ariya/phantomjs/downloads/$zipName"
+} Else {
+	Write-Output "Browser=$browser NOT supported... Exiting script..."
+	Exit
 }
+
 
 # move current folder to where contains this .ps1 script file.
 $scriptDir = Split-Path $MyInvocation.MyCommand.Path
@@ -34,7 +43,11 @@ if (-not (Test-Path ".\$zipName")){
 # Decompress .zip file to extract driver .exe file.
 if (-not (Test-Path ".\$driverName")) {
     $shell = New-Object -com Shell.Application
-    $zipFile = $shell.NameSpace($zipPath)
+    if ($browser -like 'Phantomjs') {
+		$zipFile = $shell.NameSpace("$zipPath\$folderName\bin")
+	}  Else {
+		$zipFile = $shell.NameSpace("$zipPath")
+	}
 
     $zipFile.Items() | `
     where {(Split-Path $_.Path -Leaf) -eq $driverName} | `

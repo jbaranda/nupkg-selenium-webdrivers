@@ -19,3 +19,6 @@ IF /I "%browser%"=="firefox" (
 IF /I "%browser%"=="ie" (
 	.\NuGet.exe pack .\Selenium.InternetExplorer.WebDriver.nuspec
 )
+IF /I "%browser%"=="phantomjs" (
+	.\NuGet.exe pack .\Selenium.PhantomJS.WebDriver.nuspec
+)
