@@ -1,6 +1,6 @@
-# NuGet packages for WebDriver - Chrome, Firefox, Internet Explorer
+# NuGet packages for WebDriver - Chrome, Firefox, Internet Explorer, PhantomJS
 
-## This is a repurposed repo of [nupkg-selenium-webdriver-chromedriver](https://github.com/jsakamoto/nupkg-selenium-webdriver-chromedriver) by [jsakamoto](https://github.com/jsakamoto) that handles downloading Chrome, Firefox, and Internet Explorer WebDrivers instead
+## This is a repurposed repo of [nupkg-selenium-webdriver-chromedriver](https://github.com/jsakamoto/nupkg-selenium-webdriver-chromedriver) by [jsakamoto](https://github.com/jsakamoto) that handles downloading Chrome, Firefox, Internet Explorer WebDrivers, and PhantomJS instead
 
 Chrome: [![NuGet Package](https://img.shields.io/nuget/v/Selenium.Chrome.WebDriver.svg)](https://www.nuget.org/packages/Selenium.Chrome.WebDriver/)
 
