@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Selenium.PhantomJS.WebDriver</id>
+    <version>2.1.1</version>
+    <authors>jbaranda</authors>
+    <summary>Selenium PhantomJS WebDriver (Windows)</summary>
+    <description>
+	Repurposed nuget package of Selenium.WebDriver.ChromeDriver but for PhantomJS instead
+	Install PhantomJS for into your Selenium Unit Test Project.
+	"phantomjs.exe" is copied to bin folder from package folder when the build process.
+	NuGet package restoring ready, and no need to commit "phantomjs.exe" binary into source code control repository.
+    </description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/jbaranda/nupkg-selenium-webdrivers</projectUrl>
+    <licenseUrl>http://unlicense.org</licenseUrl>
+    <tags>Selenium WebDriver PhantomJS</tags>
+    <releaseNotes>
+	<![CDATA[
+	  v2.1.1
+      - PhantomJS 2.1.1 release
+      ]]>
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="phantomjs.exe" target="driver"/>
+    <file src="Selenium.PhantomJS.WebDriver.targets" target="build"/>
+  </files>
+</package>
