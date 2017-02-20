@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Selenium.InternetExplorer.WebDriver</id>
-    <version>2.48</version>
+    <version>3.1</version>
     <authors>jbaranda</authors>
     <summary>Internet Explorer WebDriver (Win32)</summary>
     <description>
@@ -17,6 +17,8 @@
     <tags>Selenium WebDriver Internet Explorer</tags>
     <releaseNotes>
 	<![CDATA[
+	  v3.1
+      - Internet Explorer Driver 3.1 release
 	  v3.00
       - Internet Explorer Driver 3.00 release
 	  v2.48
