@@ -76,7 +76,7 @@ You will need to execute the BuildPackage.bat file with the following input para
 - Browser {Chrome, Firefox, IE, PhantomJS}
 - Version
 
-###Usage Examples
+### Usage Examples
 _BuildPackage.bat {browser} {version}_
 
 For creating nuget package for ChromeDriver version 2.25:
