@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Selenium.Firefox.WebDriver</id>
-    <version>0.16.1</version>
+    <version>0.17.0</version>
     <authors>jbaranda</authors>
     <summary>Selenium Firefox WebDriver Marionette (Win32)</summary>
     <description>
@@ -17,6 +17,8 @@
     <tags>Selenium WebDriver Firefox</tags>
     <releaseNotes>
 	<![CDATA[
+    v0.17.0
+      - Firefox Driver 0.17.0 release
     v0.16.1
       - Firefox Driver 0.16.1 release
     v0.16.0
