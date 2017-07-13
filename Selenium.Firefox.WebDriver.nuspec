@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Selenium.Firefox.WebDriver</id>
-    <version>0.17.0</version>
+    <version>0.18.0</version>
     <authors>jbaranda</authors>
     <summary>Selenium Firefox WebDriver Marionette (Win32)</summary>
     <description>
@@ -17,22 +17,24 @@
     <tags>Selenium WebDriver Firefox</tags>
     <releaseNotes>
 	<![CDATA[
+    v0.18.0
+      - Firefox Driver 0.18.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.18.0
     v0.17.0
-      - Firefox Driver 0.17.0 release
+      - Firefox Driver 0.17.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.17.0
     v0.16.1
-      - Firefox Driver 0.16.1 release
+      - Firefox Driver 0.16.1 release - https://github.com/mozilla/geckodriver/releases/tag/v0.16.1
     v0.16.0
-      - Firefox Driver 0.16.0 release
+      - Firefox Driver 0.16.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.16.0
     v0.15.0
-      - Firefox Driver 0.15.0 release
+      - Firefox Driver 0.15.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.15.0
   	v0.14.0
-      - Firefox Driver 0.14.0 release
+      - Firefox Driver 0.14.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.14.0
   	v0.13.0
-      - Firefox Driver 0.13.0 release
+      - Firefox Driver 0.13.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.13.0
   	v0.12.0
-      - Firefox Driver 0.12.0 release
+      - Firefox Driver 0.12.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.12.0
 	  v0.11.1
-      - Firefox Driver 0.11.1 release
+      - Firefox Driver 0.11.1 release - https://github.com/mozilla/geckodriver/releases/tag/v0.11.1
       ]]>
     </releaseNotes>
   </metadata>
