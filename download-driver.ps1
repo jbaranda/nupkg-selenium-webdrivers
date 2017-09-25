@@ -1,20 +1,38 @@
 #input parameters
 param (
 	[Parameter(Mandatory=$true)][string]$browser,
-	[Parameter(Mandatory=$true)][string]$version
+	[Parameter(Mandatory=$true)][string]$version,
+	[Parameter(Mandatory=$false)][string]$bit
 )
 
 If ($browser -like 'Chrome') {
 	$driverName = "chromedriver.exe"
-	$zipName = "chromedriver_win32.zip"
+	If ([string]::IsNullOrEmpty($bit)) {
+		$zipName = "chromedriver_win32.zip"
+	}
+	else {
+		$zipName = "chromedriver_win$bit.zip"
+	}
 	$downloadUrl ="http://chromedriver.storage.googleapis.com/$version/$zipName"
 } ElseIf ($browser -like 'Firefox') {
 	$driverName = "geckodriver.exe"
-	$zipName = "geckodriver-v$version-win32.zip"
+	If ([string]::IsNullOrEmpty($bit)) {
+		$zipName = "geckodriver-v$version-win32.zip"
+	}
+	else {
+		$zipName = "geckodriver-v$version-win$bit.zip"
+	}	
 	$downloadUrl ="https://github.com/mozilla/geckodriver/releases/download/v$version/$zipName"
 } ElseIf ($browser -like 'IE') {
 	$driverName = "IEDriverServer.exe"
-	$zipName = "IEDriverServer_Win32_$version.0.zip"
+	If ([string]::IsNullOrEmpty($bit)) {
+		$zipName = "IEDriverServer_Win32_$version.0.zip"
+	} ElseIf ($bit -like '64') {
+		$zipName = "IEDriverServer_x$bit" + "_$version.0.zip"
+	} Else {
+		$zipName = "IEDriverServer_Win$bit" + "_$version.0.zip"
+	}
+	
 	$downloadUrl ="http://selenium-release.storage.googleapis.com/$version/$zipName"
 } ElseIf ($browser -like 'Phantomjs') {
 	$driverName = "phantomjs.exe"
