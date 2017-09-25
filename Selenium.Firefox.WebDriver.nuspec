@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Selenium.Firefox.WebDriver</id>
-    <version>0.18.0</version>
+    <version>0.19.0</version>
     <authors>jbaranda</authors>
     <summary>Selenium Firefox WebDriver Marionette (Win32)</summary>
     <description>
@@ -17,6 +17,8 @@
     <tags>Selenium WebDriver Firefox</tags>
     <releaseNotes>
 	<![CDATA[
+   v0.19.0
+      - Firefox Driver 0.18.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.19.0
     v0.18.0
       - Firefox Driver 0.18.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.18.0
     v0.17.0
