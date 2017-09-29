@@ -14,6 +14,7 @@ If ($browser -like 'Chrome') {
 		$zipName = "chromedriver_win$bit.zip"
 	}
 	$downloadUrl ="http://chromedriver.storage.googleapis.com/$version/$zipName"
+	Write-Host $downloadUrl
 } ElseIf ($browser -like 'Firefox') {
 	$driverName = "geckodriver.exe"
 	If ([string]::IsNullOrEmpty($bit)) {
@@ -23,22 +24,26 @@ If ($browser -like 'Chrome') {
 		$zipName = "geckodriver-v$version-win$bit.zip"
 	}	
 	$downloadUrl ="https://github.com/mozilla/geckodriver/releases/download/v$version/$zipName"
+	Write-Host $downloadUrl
 } ElseIf ($browser -like 'IE') {
 	$driverName = "IEDriverServer.exe"
 	If ([string]::IsNullOrEmpty($bit)) {
-		$zipName = "IEDriverServer_Win32_$version.0.zip"
+		$zipName = "IEDriverServer_Win32_$version.zip"
 	} ElseIf ($bit -like '64') {
-		$zipName = "IEDriverServer_x$bit" + "_$version.0.zip"
+		$zipName = "IEDriverServer_x$bit" + "_$version.zip"
 	} Else {
-		$zipName = "IEDriverServer_Win$bit" + "_$version.0.zip"
+		$zipName = "IEDriverServer_Win$bit" + "_$version.zip"
 	}
-	
-	$downloadUrl ="http://selenium-release.storage.googleapis.com/$version/$zipName"
+	$versionUrlParam = $version.Substring(0, $version.LastIndexOf('.'))
+
+	$downloadUrl ="http://selenium-release.storage.googleapis.com/$versionUrlParam/$zipName"
+	Write-Host $downloadUrl
 } ElseIf ($browser -like 'Phantomjs') {
 	$driverName = "phantomjs.exe"
 	$folderName = "phantomjs-$version-windows"
 	$zipName = "$folderName.zip"
 	$downloadUrl ="https://bitbucket.org/ariya/phantomjs/downloads/$zipName"
+	Write-Host $downloadUrl
 } Else {
 	Write-Output "Browser=$browser NOT supported... Exiting script..."
 	Exit
