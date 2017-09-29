@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Selenium.InternetExplorer.WebDriver</id>
-    <version>3.4</version>
+    <version>3.6</version>
     <authors>jbaranda</authors>
     <summary>Internet Explorer WebDriver (Win32)</summary>
     <description>
@@ -17,19 +17,15 @@
     <tags>Selenium WebDriver Internet Explorer</tags>
     <releaseNotes>
 	<![CDATA[
-    v3.4
-      - Internet Explorer Driver 3.4 release
-    v3.3
-      - Internet Explorer Driver 3.3 release
-    v3.2
-      - Internet Explorer Driver 3.2 release
-	  v3.1
-      - Internet Explorer Driver 3.1 release
-	  v3.00
-      - Internet Explorer Driver 3.00 release
-	  v2.48
-      - Internet Explorer Driver 2.48 release
-      ]]>
+    v.3.6 - Internet Explorer Driver 3.6 release http://selenium-release.storage.googleapis.com/index.html?path=3.6/
+    v.3.5.1 - Internet Explorer Driver 3.5.1 release http://selenium-release.storage.googleapis.com/index.html?path=3.5/
+    v3.4 - Internet Explorer Driver 3.4 release http://selenium-release.storage.googleapis.com/index.html?path=3.4/
+    v3.3 - Internet Explorer Driver 3.3 release http://selenium-release.storage.googleapis.com/index.html?path=3.3/
+    v3.2 - Internet Explorer Driver 3.2 release http://selenium-release.storage.googleapis.com/index.html?path=3.2/
+	  v3.1 - Internet Explorer Driver 3.1 release http://selenium-release.storage.googleapis.com/index.html?path=3.1/
+	  v3.00 - Internet Explorer Driver 3.00 release http://selenium-release.storage.googleapis.com/index.html?path=3.0/
+	  v2.48 - Internet Explorer Driver 2.48 release http://selenium-release.storage.googleapis.com/index.html?path=2.48/
+    ]]>
     </releaseNotes>
   </metadata>
   <files>
