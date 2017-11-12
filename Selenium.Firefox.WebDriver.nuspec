@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Selenium.Firefox.WebDriver</id>
-    <version>0.19.0</version>
+    <version>0.19.1</version>
     <authors>jbaranda</authors>
-    <summary>Selenium Firefox WebDriver Marionette (Win32)</summary>
+    <summary>Selenium Firefox WebDriver Marionette (Win64)</summary>
     <description>
 	Repurposed nuget package of Selenium.WebDriver.ChromeDriver but for Firefox Driver instead
-	Install Firefox Driver(Win32) Marionette for Selenium WebDriver into your Unit Test Project.
+	Install Firefox Driver(Win64) Marionette for Selenium WebDriver into your Unit Test Project.
 	"geckodriver.exe" is copied to bin folder from package folder when the build process.
 	NuGet package restoring ready, and no need to commit "geckodriver.exe" binary into source code control repository.
     </description>
@@ -17,6 +17,7 @@
     <tags>Selenium WebDriver Firefox</tags>
     <releaseNotes>
     <![CDATA[
+    v0.19.1 - FIrefox Driver 0.19.1 release - https://github.com/mozilla/geckodriver/releases/tag/v0.19.1
     v0.19.0 - Firefox Driver 0.19.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.19.0
     v0.18.0 - Firefox Driver 0.18.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.18.0
     v0.17.0 - Firefox Driver 0.17.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.17.0
