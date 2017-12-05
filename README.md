@@ -75,9 +75,10 @@ And package installer configure msbuild task such as .csproj to copy each WebDri
 You will need to execute the BuildPackage.bat file with the following input parameters:
 - Browser {Chrome, Firefox, IE, PhantomJS}
 - Version
+- (OPTIONAL) Binary File Bit Version 32 or 64 (defaults to 32bit)
 
 ### Usage Examples
-_BuildPackage.bat {browser} {version}_
+_BuildPackage.bat {browser} {version} {OPTIONAL|bitversion}_
 
 For creating nuget package for ChromeDriver version 2.25:
 ```
@@ -92,6 +93,11 @@ For creating nuget package for Firefox (Marionette) Driver version 0.11.1:
 For creating nuget package for Internet Explorer Driver version 2.48:
 ```
 > BuildPackage.bat IE 2.48
+```
+
+For creating nuget package for Internet Explorer Driver version 3.8.0 64bit version:
+```
+> BuildPacjage.bat IE 3.8.0 64
 ```
 
 For creating nuget package for PhantomJS version 2.1.1:
