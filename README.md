@@ -97,7 +97,7 @@ For creating nuget package for Internet Explorer Driver version 2.48:
 
 For creating nuget package for Internet Explorer Driver version 3.8.0 64bit version:
 ```
-> BuildPacjage.bat IE 3.8.0 64
+> BuildPackage.bat IE 3.8.0 64
 ```
 
 For creating nuget package for PhantomJS version 2.1.1:
