@@ -59,6 +59,7 @@ $zipPath = Join-Path $currentPath $zipName
 
 # download driver .zip file if not exists.
 if (-not (Test-Path ".\$zipName")){
+	[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
     (New-Object Net.WebClient).Downloadfile($downloadurl, $zipPath)
     if (Test-Path ".\$driverName") { del ".\$driverName" }
 }
