@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Selenium.Chrome.WebDriver</id>
-    <version>2.38</version>
+    <version>2.40</version>
     <authors>jbaranda</authors>
     <summary>Selenium Chrome WebDriver (Win32)</summary>
     <description>
@@ -17,7 +17,9 @@
     <tags>Selenium WebDriver Chrome</tags>
     <releaseNotes>
     <![CDATA[
-    v2.38 - Chrome Driver 2.37 release - https://chromedriver.storage.googleapis.com/index.html?path=2.38/
+    v2.40 - Chrome Driver 2.40 release - https://chromedriver.storage.googleapis.com/index.html?path=2.40/
+    v2.39 - Chrome Driver 2.39 release - https://chromedriver.storage.googleapis.com/index.html?path=2.39/
+    v2.38 - Chrome Driver 2.38 release - https://chromedriver.storage.googleapis.com/index.html?path=2.38/
     v2.37 - Chrome Driver 2.37 release - https://chromedriver.storage.googleapis.com/index.html?path=2.37/
     v2.36 - Chrome Driver 2.36 release - https://chromedriver.storage.googleapis.com/index.html?path=2.36/
     v2.35 - Chrome Driver 2.35 release - https://chromedriver.storage.googleapis.com/index.html?path=2.35/
