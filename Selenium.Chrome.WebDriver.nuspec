@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package>
   <metadata>
     <id>Selenium.Chrome.WebDriver</id>
-    <version>2.45</version>
+    <version>74.0</version>
     <authors>jbaranda</authors>
     <summary>Selenium Chrome WebDriver (Win32)</summary>
     <description>
@@ -13,10 +13,13 @@
     </description>
     <language>en-US</language>
     <projectUrl>https://github.com/jbaranda/nupkg-selenium-webdrivers</projectUrl>
-    <licenseUrl>http://unlicense.org</licenseUrl>
+    <license type="expression">Unlicense</license>
     <tags>Selenium WebDriver Chrome</tags>
     <releaseNotes>
     <![CDATA[
+    v74.0.3729.6 - Chrome Driver 74.0.3729.6 release - https://chromedriver.storage.googleapis.com/index.html?path=74.0.3729.6/
+    v73.0.3683.68 - Chrome Driver 73.0.3683.68 release - https://chromedriver.storage.googleapis.com/index.html?path=73.0.3683.68/
+    v2.46 - Chrome Driver 2.46 release - https://chromedriver.storage.googleapis.com/index.html?path=2.46/
     v2.45 - Chrome Driver 2.45 release - https://chromedriver.storage.googleapis.com/index.html?path=2.45/
     v2.44 - Chrome Driver 2.44 release - https://chromedriver.storage.googleapis.com/index.html?path=2.44/
     v2.43 - Chrome Driver 2.43 release - https://chromedriver.storage.googleapis.com/index.html?path=2.43/
