@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package>
   <metadata>
     <id>Selenium.Firefox.WebDriver</id>
-    <version>0.23.0</version>
+    <version>0.24.0</version>
     <authors>jbaranda</authors>
     <summary>Selenium Firefox WebDriver Marionette (Win64)</summary>
     <description>
@@ -13,16 +13,17 @@
     </description>
     <language>en-US</language>
     <projectUrl>https://github.com/jbaranda/nupkg-selenium-webdrivers</projectUrl>
-    <licenseUrl>http://unlicense.org</licenseUrl>
+    <license type="expression">Unlicense</license>
     <tags>Selenium WebDriver Firefox</tags>
     <releaseNotes>
     <![CDATA[
-    v0.23.0 - FIrefox Driver 0.23.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.23.0
-    v0.22.0 - FIrefox Driver 0.22.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.22.0
-    v0.21.0 - FIrefox Driver 0.21.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.21.0
-    v0.20.1 - FIrefox Driver 0.20.1 release - https://github.com/mozilla/geckodriver/releases/tag/v0.20.1
-    v0.20.0 - FIrefox Driver 0.20.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.20.0
-    v0.19.1 - FIrefox Driver 0.19.1 release - https://github.com/mozilla/geckodriver/releases/tag/v0.19.1
+    v0.24.0 - Firefox Driver 0.24.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.24.0
+    v0.23.0 - Firefox Driver 0.23.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.23.0
+    v0.22.0 - Firefox Driver 0.22.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.22.0
+    v0.21.0 - Firefox Driver 0.21.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.21.0
+    v0.20.1 - Firefox Driver 0.20.1 release - https://github.com/mozilla/geckodriver/releases/tag/v0.20.1
+    v0.20.0 - Firefox Driver 0.20.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.20.0
+    v0.19.1 - Firefox Driver 0.19.1 release - https://github.com/mozilla/geckodriver/releases/tag/v0.19.1
     v0.19.0 - Firefox Driver 0.19.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.19.0
     v0.18.0 - Firefox Driver 0.18.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.18.0
     v0.17.0 - Firefox Driver 0.17.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.17.0
