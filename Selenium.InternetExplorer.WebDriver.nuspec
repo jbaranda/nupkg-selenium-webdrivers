@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package>
   <metadata>
     <id>Selenium.InternetExplorer.WebDriver</id>
-    <version>3.141</version>
+    <version>3.141.5</version>
     <authors>jbaranda</authors>
     <summary>Internet Explorer WebDriver (Win32)</summary>
     <description>
@@ -13,30 +13,9 @@
     </description>
     <language>en-US</language>
     <projectUrl>https://github.com/jbaranda/nupkg-selenium-webdrivers</projectUrl>
-    <licenseUrl>http://unlicense.org</licenseUrl>
+    <license type="expression">Unlicense</license>
     <tags>Selenium WebDriver Internet Explorer</tags>
-    <releaseNotes>
-	<![CDATA[
-    v3.141 - Internet Explorer Driver 3.141 release http://selenium-release.storage.googleapis.com/index.html?path=3.141/
-    v3.14 - Internet Explorer Driver 3.14 release http://selenium-release.storage.googleapis.com/index.html?path=3.14/
-    v3.13 - Internet Explorer Driver 3.13 release http://selenium-release.storage.googleapis.com/index.html?path=3.13/
-    v3.12 - Internet Explorer Driver 3.12 release http://selenium-release.storage.googleapis.com/index.html?path=3.12/
-    v3.11.1 - Internet Explorer Driver 3.11.1 release http://selenium-release.storage.googleapis.com/index.html?path=3.11/
-    v3.11 - Internet Explorer Driver 3.11 release http://selenium-release.storage.googleapis.com/index.html?path=3.11/
-    v3.10 - Internet Explorer Driver 3.10 release http://selenium-release.storage.googleapis.com/index.html?path=3.10/
-    v3.9 - Internet Explorer Driver 3.9 release http://selenium-release.storage.googleapis.com/index.html?path=3.9/
-    v3.8 - Internet Explorer Driver 3.8 release http://selenium-release.storage.googleapis.com/index.html?path=3.8/
-    v3.7 - Internet Explorer Driver 3.7 release http://selenium-release.storage.googleapis.com/index.html?path=3.7/
-    v3.6 - Internet Explorer Driver 3.6 release http://selenium-release.storage.googleapis.com/index.html?path=3.6/
-    v3.5.1 - Internet Explorer Driver 3.5.1 release http://selenium-release.storage.googleapis.com/index.html?path=3.5/
-    v3.4 - Internet Explorer Driver 3.4 release http://selenium-release.storage.googleapis.com/index.html?path=3.4/
-    v3.3 - Internet Explorer Driver 3.3 release http://selenium-release.storage.googleapis.com/index.html?path=3.3/
-    v3.2 - Internet Explorer Driver 3.2 release http://selenium-release.storage.googleapis.com/index.html?path=3.2/
-	  v3.1 - Internet Explorer Driver 3.1 release http://selenium-release.storage.googleapis.com/index.html?path=3.1/
-	  v3.00 - Internet Explorer Driver 3.00 release http://selenium-release.storage.googleapis.com/index.html?path=3.0/
-	  v2.48 - Internet Explorer Driver 2.48 release http://selenium-release.storage.googleapis.com/index.html?path=2.48/
-    ]]>
-    </releaseNotes>
+    <releaseNotes>Internet Explorer Driver 3.141.5 release http://selenium-release.storage.googleapis.com/index.html?path=3.141/</releaseNotes>
   </metadata>
   <files>
     <file src="IEDriverServer.exe" target="driver"/>
