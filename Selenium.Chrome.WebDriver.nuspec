@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Selenium.Chrome.WebDriver</id>
-    <version>74.0</version>
+    <version>75.0</version>
     <authors>jbaranda</authors>
     <summary>Selenium Chrome WebDriver (Win32)</summary>
     <description>
@@ -17,6 +17,7 @@
     <tags>Selenium WebDriver Chrome</tags>
     <releaseNotes>
     <![CDATA[
+    v75.0.3770.140 - Chrome Driver 75.0.3770.140 release - https://chromedriver.storage.googleapis.com/index.html?path=75.0.3770.140/
     v74.0.3729.6 - Chrome Driver 74.0.3729.6 release - https://chromedriver.storage.googleapis.com/index.html?path=74.0.3729.6/
     v73.0.3683.68 - Chrome Driver 73.0.3683.68 release - https://chromedriver.storage.googleapis.com/index.html?path=73.0.3683.68/
     v2.46 - Chrome Driver 2.46 release - https://chromedriver.storage.googleapis.com/index.html?path=2.46/
