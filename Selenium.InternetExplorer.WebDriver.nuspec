@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Selenium.InternetExplorer.WebDriver</id>
-    <version>3.141.5</version>
+    <version>3.150.1</version>
     <authors>jbaranda</authors>
     <summary>Internet Explorer WebDriver (Win32)</summary>
     <description>
@@ -15,7 +15,7 @@
     <projectUrl>https://github.com/jbaranda/nupkg-selenium-webdrivers</projectUrl>
     <license type="expression">Unlicense</license>
     <tags>Selenium WebDriver Internet Explorer</tags>
-    <releaseNotes>Internet Explorer Driver 3.141.5 release http://selenium-release.storage.googleapis.com/index.html?path=3.141/</releaseNotes>
+    <releaseNotes>Internet Explorer Driver 3.150.1 release https://selenium-release.storage.googleapis.com/index.html?path=3.150/</releaseNotes>
   </metadata>
   <files>
     <file src="IEDriverServer.exe" target="driver"/>
