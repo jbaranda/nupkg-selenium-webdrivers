@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Selenium.Chrome.WebDriver</id>
-    <version>83.0</version>
+    <version>85.0</version>
     <authors>jbaranda</authors>
     <summary>Selenium Chrome WebDriver (Win32)</summary>
     <description>
@@ -15,7 +15,7 @@
     <projectUrl>https://github.com/jbaranda/nupkg-selenium-webdrivers</projectUrl>
     <license type="expression">Unlicense</license>
     <tags>Selenium WebDriver Chrome</tags>
-    <releaseNotes>v83.0.4103.39 - Chrome Driver 83.0.4103.39 release - https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/
+    <releaseNotes>v85.0.4183.87 - Chrome Driver 85.0.4183.87 release - https://chromedriver.storage.googleapis.com/index.html?path=85.0.4183.87/
     </releaseNotes>
   </metadata>
   <files>
