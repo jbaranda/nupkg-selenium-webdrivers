@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Selenium.Firefox.WebDriver</id>
-    <version>0.26.0</version>
+    <version>0.27.0</version>
     <authors>jbaranda</authors>
     <summary>Selenium Firefox WebDriver Marionette (Win64)</summary>
     <description>
@@ -15,7 +15,7 @@
     <projectUrl>https://github.com/jbaranda/nupkg-selenium-webdrivers</projectUrl>
     <license type="expression">Unlicense</license>
     <tags>Selenium WebDriver Firefox</tags>
-    <releaseNotes>v0.26.0 - Firefox Driver 0.26.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.26.0
+    <releaseNotes>v0.27.0 - Firefox Driver 0.27.0 release - https://github.com/mozilla/geckodriver/releases/tag/v0.27.0
     </releaseNotes>
   </metadata>
   <files>
